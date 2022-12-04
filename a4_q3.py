@@ -3,8 +3,8 @@
 lst=[]
 length=int(input(" length of the list: "))
 for i in range(length):
-    element=int(input(" enter element:  "))
-    lst.append(element)
+    numbers=int(input(" enter number:  "))
+    lst.append(numbers)
 print(lst)
 def square(data):
     return data*data
